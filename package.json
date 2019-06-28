@@ -1,0 +1,20 @@
+{
+  "name": "bizz-buzz-media",
+  "version": "1.0.0",
+  "description": "Bizz-Buzz Media is an exclusive membership-based, limited-access, group of businesses that are owned and operated locally within the greater Lane County area.",
+  "author": "Dustin Boling",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.0.0",
+    "nodemon": "^1.18.9"
+  }
+}
