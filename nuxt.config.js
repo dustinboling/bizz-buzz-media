@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Bizz-Buzz Media | Exclusive Local Business Networking & Digital Marketing',
     meta: [{
         charset: 'utf-8'
       },
