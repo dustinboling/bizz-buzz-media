@@ -40,7 +40,7 @@ export default {
       },
       {
         rel: 'icon',
-        type: 'image/x-icon',
+        type: 'image/png',
         sizes: '16x16',
         href: '/favicon-16x16.png'
       },
@@ -53,9 +53,9 @@ export default {
         href: 'https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap'
       },
       {
-        rel: "mask-icon",
-        href: "/safari-pinned-tab.svg",
-        color: "#5bbad5"
+        rel: 'mask-icon',
+        href: '/safari-pinned-tab.svg',
+        color: '#5bbad5'
       }
     ]
   },
