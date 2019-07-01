@@ -20,8 +20,7 @@ export default {
       {
         name: 'msapplication-TileColor',
         content: '#da532c'
-      }
-
+      },
       {
         name: 'theme-color',
         content: '#ffffff'
