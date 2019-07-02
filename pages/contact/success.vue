@@ -1,7 +1,7 @@
 <template>
   <section>
-    <div class="container mx-auto">
-      <h1>Success!</h1>
+    <div class="container mx-auto pt-56 relative z-20">
+      <h1 class="lg:text-5xl">Success!</h1>
     </div>
   </section>
 </template>

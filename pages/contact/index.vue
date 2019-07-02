@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container mx-auto">
+    <div class="container mx-auto pt-56 relative z-20">
       <form
         name="contact"
         method="POST"
