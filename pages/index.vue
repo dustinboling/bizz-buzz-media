@@ -33,7 +33,7 @@
         <div class="inline-block" style="transform: rotate(-1deg);">
           <img
             class="border-4 border-bborange shadow-md rounded"
-            src="http://lorempixel.com/730/410/nature"
+            src="https://lorempixel.com/730/410/nature"
             alt
           />
           <p
@@ -58,7 +58,7 @@
         <div class="inline-block" style="transform: rotate(1deg);">
           <img
             class="border-4 border-bborange shadow-md rounded"
-            src="http://lorempixel.com/730/410/people"
+            src="https://lorempixel.com/730/410/people"
             alt
           />
           <p
@@ -83,7 +83,7 @@
         <div class="inline-block" style="transform: rotate(-1deg);">
           <img
             class="border-4 border-bborange shadow-md rounded"
-            src="http://lorempixel.com/730/410/business"
+            src="https://lorempixel.com/730/410/business"
             alt
           />
           <p
@@ -108,7 +108,7 @@
         <div class="inline-block" style="transform: rotate(1deg);">
           <img
             class="border-4 border-bborange shadow-md rounded"
-            src="http://lorempixel.com/730/410/business"
+            src="https://lorempixel.com/730/410/business"
             alt
           />
           <p
@@ -133,7 +133,7 @@
         <div class="inline-block" style="transform: rotate(-1deg);">
           <img
             class="border-4 border-bborange shadow-md rounded"
-            src="http://lorempixel.com/730/410/business"
+            src="https://lorempixel.com/730/410/business"
             alt
           />
           <p
