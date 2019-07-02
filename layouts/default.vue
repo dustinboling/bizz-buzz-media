@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="shadow-md border-t-2 border-black">
+    <header class="shadow-md border-t-2 border-black fixed top-0 left-0 right-0 z-50">
       <div class="top-nav bg-gray-500 text-white">
         <div
           class="container mx-auto flex justify-between items-center py-3 text-sm font-light tracking-wide"
