@@ -2,12 +2,12 @@
   <main>
     <!-- SECTION 1 -->
     <section
-      class="relative pt-56 pb-20"
-      style="background-image:url('/bizzbuzz-bee.svg');background-position:120% -60%;background-repeat:no-repeat;background-size:50% 80%;"
+      class="relative pt-48 md:pt-56 pb-20"
+      style="background-image:url('/bizzbuzz-bee.svg');background-position:130% -60%;background-repeat:no-repeat;background-size:50% 80%;"
     >
-      <div class="container mx-auto relative z-20">
+      <div class="container mx-auto px-6 md:px-0 relative z-20">
         <div class="inro-text tracking-wide">
-          <h1 class="w-1/2 lg:text-5xl font-light capitalize leading-tight mb-6">
+          <h1 class="md:w-1/2 text-3xl lg:text-5xl font-light capitalize leading-tight mb-6">
             Hello, Lane County!
             <br />
             <span class="font-semibold leading-none">
@@ -16,7 +16,7 @@
             </span>
           </h1>
           <p
-            class="w-1/2"
+            class="md:w-1/2"
           >Bizz-Buzz Media is an exclusive membership-based limited access group of businesses that are owned and operated locally within the greater Lane County area.</p>
         </div>
         <div class="intro-buttons py-10 tracking-wide">
@@ -50,7 +50,7 @@
     >
       <div class="container mx-auto flex flex-col items-end">
         <h2
-          class="w-5/6 text-right lg:text-5xl font-semibold capitalize leading-tight mb-2"
+          class="w-5/6 text-right text-3xl lg:text-5xl font-semibold capitalize leading-tight mb-2"
         >Our Network of Local Businesses Have Access to Exclusive Marketing Opportunities</h2>
         <p
           class="w-1/2 text-right mb-4"
@@ -75,7 +75,7 @@
     >
       <div class="container mx-auto">
         <h2
-          class="w-5/6 lg:text-5xl font-semibold capitalize leading-tight mb-2"
+          class="w-5/6 text-3xl lg:text-5xl font-semibold capitalize leading-tight mb-2"
         >Connect with Other Local Businesses through Exclusive Local Business Networking Events</h2>
         <p
           class="w-1/2 mb-4"
@@ -100,7 +100,7 @@
     >
       <div class="container mx-auto flex flex-col items-end">
         <h2
-          class="w-5/6 text-right lg:text-5xl font-semibold capitalize leading-tight mb-2"
+          class="w-5/6 text-right text-3xl lg:text-5xl font-semibold capitalize leading-tight mb-2"
         >Our Network of Local Businesses Have Access to Exclusive Marketing Opportunities</h2>
         <p
           class="w-1/2 text-right mb-4"
@@ -108,7 +108,7 @@
         <div class="inline-block" style="transform: rotate(1deg);">
           <img
             class="border-4 border-bborange shadow-md rounded"
-            src="http://lorempixel.com/730/410/nature"
+            src="http://lorempixel.com/730/410/business"
             alt
           />
           <p
@@ -125,7 +125,7 @@
     >
       <div class="container mx-auto">
         <h2
-          class="w-5/6 lg:text-5xl font-semibold capitalize leading-tight mb-2"
+          class="w-5/6 text-3xl lg:text-5xl font-semibold capitalize leading-tight mb-2"
         >Connect with Other Local Businesses through Exclusive Local Business Networking Events</h2>
         <p
           class="w-1/2 mb-4"
@@ -133,7 +133,7 @@
         <div class="inline-block" style="transform: rotate(-1deg);">
           <img
             class="border-4 border-bborange shadow-md rounded"
-            src="http://lorempixel.com/730/410/nature/?v=5"
+            src="http://lorempixel.com/730/410/business"
             alt
           />
           <p
