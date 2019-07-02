@@ -1,23 +1,23 @@
 <template>
   <div>
-    <header class="shadow-md">
+    <header class="shadow-md border-t-2 border-black">
       <div class="top-nav bg-gray-500 text-white">
         <div
-          class="container mx-auto flex justify-between items-center py-3 text-xs font-light tracking-wide"
+          class="container mx-auto flex justify-between items-center py-3 text-sm font-light tracking-wide"
         >
-          <span>Creating buzz for your bizzness</span>
+          <span>Creating buzz for your bizzness™</span>
           <span>Sign in</span>
         </div>
       </div>
-      <div class="branding" style="background-color:#FFC226;">
+      <div class="branding bg-bborange">
         <div class="container mx-auto flex justify-between items-center h-24">
           <nav class="main-nav-left">
-            <ul class="flex items-center uppercase text-lg">
+            <ul class="flex items-center uppercase text-lg tracking-wide">
               <li class="mr-12">Membership Info</li>
               <li>Join the Club</li>
             </ul>
           </nav>
-          <div class="logo -mt-12 flex flex-col items-center">
+          <div class="logo lg:-mt-12 flex flex-col items-center text-center">
             <svg
               class="h-24 mb-2"
               xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@
             <span class="uppercase text-xs tracking-widest">Bizz-Buzz Media</span>
           </div>
           <nav class="main-nav-right">
-            <ul class="flex items-center uppercase text-lg">
+            <ul class="flex items-center uppercase text-lg tracking-wide">
               <li>Around the Hive</li>
               <li class="ml-12">Contact Us</li>
             </ul>
