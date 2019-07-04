@@ -31,11 +31,14 @@
           >Membership Information</nuxt-link>
         </div>
         <div class="inline-block" style="transform: rotate(-1deg);">
-          <img
-            class="border-4 border-bborange shadow-md rounded"
-            src="https://lorempixel.com/730/410/nature"
-            alt
-          />
+          <picture>
+            <img
+              class="border-4 border-bborange shadow-md rounded"
+              src="/img/730w/eugene-oregon-skyline.jpg"
+              alt="Eugene Oregon Business Networking"
+              srcset="/img/730w/eugene-oregon-skyline@2x.jpg 2x"
+            />
+          </picture>
           <p
             class="font-hand text-right text-gray-600 tracking-wide"
           >Making business happen throughout Lane County, Oregon</p>
@@ -56,11 +59,14 @@
           class="w-1/2 text-right mb-4"
         >Our Preferred Vendors Network is highly exclusive, allowing only a limited number of businesses from each category into the network.</p>
         <div class="inline-block" style="transform: rotate(1deg);">
-          <img
-            class="border-4 border-bborange shadow-md rounded"
-            src="https://lorempixel.com/730/410/people"
-            alt
-          />
+          <picture>
+            <img
+              class="border-4 border-bborange shadow-md rounded"
+              src="/img/730w/07-bizz-buzz.jpg"
+              alt="Eugene Oregon Business Networking"
+              srcset="/img/730w/07-bizz-buzz@2x.jpg 2x"
+            />
+          </picture>
           <p
             class="font-hand text-right text-gray-600 tracking-wide"
           >Only a single vendor allowed per category</p>
@@ -81,11 +87,14 @@
           class="w-1/2 mb-4"
         >Get bizzy creating long-lasting referral relationships with other local business owners through our exclusive Preferred Vendor networking events held each and every month.</p>
         <div class="inline-block" style="transform: rotate(-1deg);">
-          <img
-            class="border-4 border-bborange shadow-md rounded"
-            src="https://lorempixel.com/730/410/business"
-            alt
-          />
+          <picture>
+            <img
+              class="border-4 border-bborange shadow-md rounded"
+              src="/img/730w/02-bizz-buzz.jpg"
+              alt="Eugene Oregon Business Networking"
+              srcset="/img/730w/02-bizz-buzz@2x.jpg 2x"
+            />
+          </picture>
           <p
             class="font-hand text-right text-gray-600 tracking-wide"
           >Only a single vendor allowed per category</p>
@@ -106,11 +115,14 @@
           class="w-1/2 text-right mb-4"
         >Each one of our members receive a 25-point marketing assessment to help define their unique needs. Then we deploy the latest marketing that will be the most effective for you.</p>
         <div class="inline-block" style="transform: rotate(1deg);">
-          <img
-            class="border-4 border-bborange shadow-md rounded"
-            src="https://lorempixel.com/730/410/business"
-            alt
-          />
+          <picture>
+            <img
+              class="border-4 border-bborange shadow-md rounded"
+              src="/img/730w/08-bizz-buzz.jpg"
+              alt="Eugene Oregon Business Networking"
+              srcset="/img/730w/08-bizz-buzz@2x.jpg 2x"
+            />
+          </picture>
           <p
             class="font-hand text-right text-gray-600 tracking-wide"
           >Only a single vendor allowed per category</p>
@@ -131,11 +143,70 @@
           class="w-1/2 mb-4"
         >Leveraging the power of collaboration we can help you gain massive exposure locally through our referral network that will put your business with a custom endorsement in front of tons of local homeowners.</p>
         <div class="inline-block" style="transform: rotate(-1deg);">
-          <img
-            class="border-4 border-bborange shadow-md rounded"
-            src="https://lorempixel.com/730/410/business"
-            alt
-          />
+          <picture>
+            <img
+              class="border-4 border-bborange shadow-md rounded"
+              src="/img/730w/06-bizz-buzz.jpg"
+              alt="Eugene Oregon Business Networking"
+              srcset="/img/730w/06-bizz-buzz@2x.jpg 2x"
+            />
+          </picture>
+          <p
+            class="font-hand text-right text-gray-600 tracking-wide"
+          >Only a single vendor allowed per category</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6 right-aligned -->
+    <section
+      class="py-20"
+      style="background-image:url('/bizzbuzz-bee-right.svg');background-position:-30%;background-repeat:no-repeat;background-size:50% 80%;"
+    >
+      <div class="container mx-auto flex flex-col items-end">
+        <h2
+          class="w-5/6 text-right text-3xl lg:text-5xl font-semibold capitalize leading-tight mb-2"
+        >Receive Referrals through Our Preferred Vendor List Provided to Homeowners</h2>
+        <p
+          class="w-1/2 text-right mb-4"
+        >Both online and offline, we’ve got you covered. Your information will be included in packages given to local homeowners as the exclusive preferred vendor for your category.</p>
+        <div class="inline-block" style="transform: rotate(1deg);">
+          <picture>
+            <img
+              class="border-4 border-bborange shadow-md rounded"
+              src="/img/730w/15-bizz-buzz.jpg"
+              alt="Eugene Oregon Business Networking"
+              srcset="/img/730w/15-bizz-buzz@2x.jpg 2x"
+            />
+          </picture>
+          <p
+            class="font-hand text-right text-gray-600 tracking-wide"
+          >Only a single vendor allowed per category</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7 -->
+    <section
+      class="py-20"
+      style="background-image:url('/bizzbuzz-bee.svg');background-position:125% 0%;background-repeat:no-repeat;background-size:50% 80%;"
+    >
+      <div class="container mx-auto">
+        <h2
+          class="w-5/6 text-3xl lg:text-5xl font-semibold capitalize leading-tight mb-2"
+        >Insider Marketing Tips are Part of the Dedicated Marketing Resources Available</h2>
+        <p
+          class="w-1/2 mb-4"
+        >We believe in empowering our members with resources to enhance their business and life. This is why we offer monthly learning sessions on topics that are current and relevant, along with an archive full of useful information that’s original and exclusive to our members.</p>
+        <div class="inline-block" style="transform: rotate(-1deg);">
+          <picture>
+            <img
+              class="border-4 border-bborange shadow-md rounded"
+              src="/img/730w/14-bizz-buzz.jpg"
+              alt="Eugene Oregon Business Networking"
+              srcset="/img/730w/14-bizz-buzz@2x.jpg 2x"
+            />
+          </picture>
           <p
             class="font-hand text-right text-gray-600 tracking-wide"
           >Only a single vendor allowed per category</p>
