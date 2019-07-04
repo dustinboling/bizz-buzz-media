@@ -1,10 +1,10 @@
 <template>
   <section class="home-section lg:py-20">
-    <div class="container mx-auto flex flex-col items-end">
+    <div class="container mx-auto px-6 md:px-0 lg:flex flex-col items-end">
       <h2
-        class="w-5/6 text-right text-3xl lg:text-5xl font-semibold capitalize leading-tight mb-2"
+        class="text-center lg:text-right lg:w-5/6 text-3xl lg:text-5xl font-semibold capitalize leading-tight mb-2"
       >{{ title }}</h2>
-      <p class="w-1/2 text-right mb-4">{{ description }}</p>
+      <p class="text-center lg:text-right lg:w-1/2 mb-4">{{ description }}</p>
       <div class="inline-block" style="transform: rotate(1deg);">
         <picture>
           <img

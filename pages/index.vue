@@ -64,6 +64,7 @@
       description="Our Preferred Vendors Network is highly exclusive, allowing only a limited number of businesses from each category into the network."
       image="/img/730w/07-bizz-buzz.jpg"
       image-at2x="/img/730w/07-bizz-buzz@2x.jpg"
+      image-caption="Only a Limited Number of Vendors are Allowed in Each Category"
     />
     <!-- Section 3 -->
     <section-bee-right

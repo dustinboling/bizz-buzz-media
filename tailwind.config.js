@@ -14,5 +14,21 @@ module.exports = {
             }
         }
     },
-    variants: {}
+    variants: {},
+    plugins: [
+        function ({
+            addUtilities
+        }) {
+            const newUtilities = {
+                '.skew-10deg': {
+                    transform: 'skewY(-10deg)',
+                },
+                '.skew-15deg': {
+                    transform: 'skewY(-15deg)',
+                },
+            }
+
+            addUtilities(newUtilities)
+        }
+    ]
 }
