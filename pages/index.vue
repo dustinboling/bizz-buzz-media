@@ -22,7 +22,7 @@
         <div class="intro-buttons py-10 tracking-wide">
           <nuxt-link
             to="/apply"
-            class="text-xl font-semibold inline-block rounded-full bg-bborange border border-bborange-darker px-12 py-3 shadow-md mr-8"
+            class="text-xl font-semibold inline-block rounded-full bg-bborange border border-bborange-darker px-12 py-3 shadow-md mr-8 mb-4 md:mb-0"
             style="border-color: #FF8D00"
           >Apply Now!</nuxt-link>
           <nuxt-link
@@ -101,10 +101,10 @@
       <div class="container mx-auto flex flex-col items-end">
         <h2
           class="w-5/6 text-right text-3xl lg:text-5xl font-semibold capitalize leading-tight mb-2"
-        >Our Network of Local Businesses Have Access to Exclusive Marketing Opportunities</h2>
+        >We Provide Professional Marketing Assistance Tailored to Your Business</h2>
         <p
           class="w-1/2 text-right mb-4"
-        >Our Preferred Vendors Network is highly exclusive, allowing only a limited number of businesses from each category into the network.</p>
+        >Each one of our members receive a 25-point marketing assessment to help define their unique needs. Then we deploy the latest marketing that will be the most effective for you.</p>
         <div class="inline-block" style="transform: rotate(1deg);">
           <img
             class="border-4 border-bborange shadow-md rounded"
@@ -126,10 +126,10 @@
       <div class="container mx-auto">
         <h2
           class="w-5/6 text-3xl lg:text-5xl font-semibold capitalize leading-tight mb-2"
-        >Connect with Other Local Businesses through Exclusive Local Business Networking Events</h2>
+        >Gain Premium Exposure to Local Homeowners Through Our Exclusive Online Communities</h2>
         <p
           class="w-1/2 mb-4"
-        >Get bizzy creating long-lasting referral relationships with other local business owners through our exclusive Preferred Vendor networking events held each and every month.</p>
+        >Leveraging the power of collaboration we can help you gain massive exposure locally through our referral network that will put your business with a custom endorsement in front of tons of local homeowners.</p>
         <div class="inline-block" style="transform: rotate(-1deg);">
           <img
             class="border-4 border-bborange shadow-md rounded"
