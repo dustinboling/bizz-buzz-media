@@ -2,9 +2,11 @@
   <main>
     <!-- SECTION 1 -->
     <!-- style="background-image:url('/bizzbuzz-bee.svg');background-position:130% -60%;background-repeat:no-repeat;background-size:50% 80%;" -->
-    <section class="relative pt-48 md:pt-56 pb-20">
+    <section class="relative pb-20">
       <div class="container mx-auto px-6 md:px-0 relative z-20 flex">
-        <div class="relative z-10 max-w-3xl xl:max-w-2xl mx-auto xl:mx-0 w-full flex-shrink-0">
+        <div
+          class="relative z-10 max-w-3xl xl:max-w-2xl mx-auto xl:mx-0 w-full flex-shrink-0 pt-48 md:pt-56"
+        >
           <div class="inro-text tracking-wide">
             <h1 class="text-3xl lg:text-5xl font-light capitalize leading-tight mb-6">
               Hello, Lane County!
@@ -44,9 +46,9 @@
           </div>
         </div>
         <div class="hidden xl:block px-6 flex-1 relative">
-          <div class="absolute inset-0 pb-64 -mt-64 ml-20">
+          <div class="absolute inset-0 pb-64 -mt-64 pl-20">
             <img
-              class="relative z-10 h-full"
+              class="relative z-10 h-screen"
               style="max-width: none; !important;"
               src="/bizzbuzz-bee.svg"
               alt
