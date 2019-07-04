@@ -41,6 +41,11 @@
       </div>
     </header>
     <nuxt />
+    <footer class="py-10 bg-bborange">
+      <p
+        class="text-center uppercase text-xs tracking-wide font-light"
+      >&copy;2019 Bizz-Buzz Media LLC. All Rights Reserved.</p>
+    </footer>
   </div>
 </template>
 
