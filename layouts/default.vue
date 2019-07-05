@@ -25,7 +25,7 @@
             <nuxt-link to="/">
               <img src="/bizzbuzz-bee.svg" class="h-20 md:h-24 mb-2" alt="Bizz-Buzz Media" />
             </nuxt-link>
-            <span class="uppercase text-xs tracking-widest">Bizz-Buzz Media</span>
+            <span class="uppercase text-xs tracking-wide">Bizz-Buzz Media</span>
           </div>
           <nav class="main-nav-right hidden md:block">
             <ul class="flex items-center uppercase text-lg tracking-wide">
@@ -52,5 +52,9 @@
 <style>
 html {
   font-family: "Lato", sans-serif;
+}
+p,
+ul {
+  @apply font-light;
 }
 </style>
