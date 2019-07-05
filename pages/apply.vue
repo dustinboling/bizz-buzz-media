@@ -3,8 +3,15 @@
     <div class="container mx-auto h-screen">
       <div class="content pt-56">
         <div class="flex">
-          <div class="flex-1">Image here</div>
           <div class="flex-1">
+            <picture-outlined
+              image="/img/730w/04-bizz-buzz.jpg"
+              imageAt2x="/img/730w/04-bizz-buzz@2x.jpg"
+              rotation="-1deg"
+              alt="The alt text"
+            />
+          </div>
+          <div class="flex-1 pl-10">
             <h1 class="text-5xl tracking-wide leading-tight">Join the Club</h1>
             <h2 class="text-3xl tracking-wide mb-6">Apply for Membership Today!</h2>
             <p>Our highly exclusive Preferred Vendor Network allows just one vendor per category. Because we have new members signing up daily, we encourage you to contact us as soon as possible to find out if your category is available. If it’s already full, we would be happy to add you to our waiting list.</p>
@@ -22,7 +29,12 @@
 </template>
 
 <script>
-export default {};
+import PictureOutlined from "~/components/PictureOutlined.vue";
+export default {
+  components: {
+    PictureOutlined
+  }
+};
 </script>
 
 <style>

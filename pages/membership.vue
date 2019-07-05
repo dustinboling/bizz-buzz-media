@@ -2,7 +2,7 @@
   <main>
     <div class="container mx-auto py-56">
       <div class="flex">
-        <div class="flex-1">
+        <div class="flex-1 pr-10">
           <h1 class="text-5xl tracking-wide leading-none mb-4">Membership Information</h1>
           <p
             class="mb-4 font-normal tracking-wide"
@@ -24,14 +24,27 @@
             class="mb-4"
           >Thanks so much for taking the time to look us up and we look forward to hearing from you!</p>
         </div>
-        <div class="flex-1 lg:pl-20">Image Here</div>
+        <div class="flex-1 lg:pl-20">
+          <picture-outlined
+            image="/img/730w/04-bizz-buzz.jpg"
+            imageAt2x="/img/730w/04-bizz-buzz@2x.jpg"
+            rotation="1deg"
+            alt="The alt text"
+          />
+        </div>
       </div>
     </div>
   </main>
 </template>
 
 <script>
-export default {};
+import PictureOutlined from "~/components/PictureOutlined.vue";
+
+export default {
+  components: {
+    PictureOutlined
+  }
+};
 </script>
 
 <style>
