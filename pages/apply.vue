@@ -4,23 +4,74 @@
       <div class="content pt-56">
         <div class="flex">
           <div class="flex-1">
-            <picture-outlined
-              image="/img/730w/04-bizz-buzz.jpg"
-              imageAt2x="/img/730w/04-bizz-buzz@2x.jpg"
-              rotation="-1deg"
-              alt="The alt text"
-            />
+            <h1 class="text-5xl tracking-wide leading-tight mb-4">Join the Club</h1>
+            <p
+              class="mb-4"
+            >Our highly exclusive Preferred Vendor Network allows just one vendor per category. Because we have new members signing up daily, we encourage you to contact us as soon as possible to find out if your category is available. If it’s already full, we would be happy to add you to our waiting list.</p>
+            <p
+              class="mb-4"
+            >Please give us a call or fill out the contact request form below and we’ll be happy to answer any questions you have and provide information in detail about what our membership includes.</p>
+            <p
+              class="mb-4"
+            >Thanks so much for your interest in our membership and we look forward to hearing from you!</p>
           </div>
           <div class="flex-1 pl-10">
-            <h1 class="text-5xl tracking-wide leading-tight">Join the Club</h1>
             <h2 class="text-3xl tracking-wide mb-6">Apply for Membership Today!</h2>
-            <p>Our highly exclusive Preferred Vendor Network allows just one vendor per category. Because we have new members signing up daily, we encourage you to contact us as soon as possible to find out if your category is available. If it’s already full, we would be happy to add you to our waiting list.</p>
-            <div
-              class="mb-4"
-            >Please give us a call or fill out the contact request form below and we’ll be happy to answer any questions you have and provide information in detail about what our membership includes.</div>
-            <div
-              class="mb-4"
-            >Thanks so much for your interest in our membership and we look forward to hearing from you!</div>
+            <form
+              name="contact"
+              method="POST"
+              action="/contact/success"
+              data-netlify="true"
+              data-netlify-recaptcha="true"
+            >
+              <p>
+                <label>
+                  Your Name:
+                  <input
+                    type="text"
+                    name="name"
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-bborange"
+                  />
+                </label>
+              </p>
+              <p>
+                <label>
+                  Business Name:
+                  <input
+                    type="text"
+                    name="business_name"
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-bborange"
+                  />
+                </label>
+              </p>
+              <p>
+                <label>
+                  Your Phone Number:
+                  <input
+                    type="text"
+                    name="phone"
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-bborange"
+                  />
+                </label>
+              </p>
+              <p class="mb-4">
+                <label>
+                  Your Email:
+                  <input
+                    type="email"
+                    name="email"
+                    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-bborange"
+                  />
+                </label>
+              </p>
+              <div data-netlify-recaptcha="true"></div>
+              <p class="text-right">
+                <button
+                  type="submit"
+                  class="shadow bg-bborange hover:bg-bborange-darker focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded mt-4"
+                >Submit</button>
+              </p>
+            </form>
           </div>
         </div>
       </div>
