@@ -21,8 +21,13 @@
             class="mb-4"
           >If you would like to know if your category is available and find out more about pricing and what we offer in detail, please fill out the contact form below or give us a call and we’ll be happy to explain everything we have to offer and answer any questions you have.</p>
           <p
-            class="mb-4"
+            class="mb-10"
           >Thanks so much for taking the time to look us up and we look forward to hearing from you!</p>
+          <nuxt-link
+            to="/apply"
+            class="text-xl font-semibold inline-block rounded-full bg-bborange border border-bborange-darker px-12 py-3 shadow-md mr-8 mb-3 md:mb-0"
+            style="border-color: #FF8D00"
+          >Apply Now!</nuxt-link>
         </div>
         <div class="flex-1 lg:pl-20">
           <picture-outlined

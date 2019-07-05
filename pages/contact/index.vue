@@ -2,8 +2,16 @@
   <section>
     <div class="container mx-auto pt-56 relative z-20 mb-56">
       <div class="flex">
-        <div class="flex-1">Left Column</div>
         <div class="flex-1">
+          <picture-outlined
+            image="/img/730w/04-bizz-buzz.jpg"
+            imageAt2x="/img/730w/04-bizz-buzz@2x.jpg"
+            rotation="-1deg"
+            alt="The alt text"
+          />
+        </div>
+        <div class="flex-1 pl-10">
+          <h1 class="mb-4 text-3xl">Contact Us</h1>
           <form
             name="contact"
             method="POST"
@@ -55,7 +63,13 @@
 </template>
 
 <script>
-export default {};
+import PictureOutlined from "~/components/PictureOutlined.vue";
+
+export default {
+  components: {
+    PictureOutlined
+  }
+};
 </script>
 
 <style>
