@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container mx-auto h-screen pt-56">
+    <div class="container mx-auto h-screen pt-56 xl:px-0">
       <div class="flex">
         <div class="flex-1">
           <picture-outlined

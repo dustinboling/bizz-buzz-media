@@ -1,9 +1,9 @@
 <template>
   <main>
-    <div class="container mx-auto h-screen">
+    <div class="container mx-auto min-h-screen mb-20 xl:px-0">
       <div class="content pt-56">
-        <div class="flex">
-          <div class="flex-1">
+        <div class="flex flex-col lg:flex-row">
+          <div class="flex-1 mb-4 lg:mb-0">
             <h1 class="text-5xl tracking-wide leading-tight mb-4">Join the Club</h1>
             <p
               class="mb-4"
@@ -15,16 +15,17 @@
               class="mb-4"
             >Thanks so much for your interest in our membership and we look forward to hearing from you!</p>
           </div>
-          <div class="flex-1 pl-10">
+          <div class="flex-1 lg:pl-10">
             <h2 class="text-3xl tracking-wide mb-6">Apply for Membership Today!</h2>
             <form
-              name="contact"
+              class="rounded shadow px-6 py-4 border"
+              name="apply"
               method="POST"
               action="/contact/success"
               data-netlify="true"
               data-netlify-recaptcha="true"
             >
-              <p>
+              <p class="mb-3">
                 <label>
                   Your Name:
                   <input
@@ -34,7 +35,7 @@
                   />
                 </label>
               </p>
-              <p>
+              <p class="mb-3">
                 <label>
                   Business Name:
                   <input
@@ -44,7 +45,7 @@
                   />
                 </label>
               </p>
-              <p>
+              <p class="mb-3">
                 <label>
                   Your Phone Number:
                   <input
@@ -54,7 +55,7 @@
                   />
                 </label>
               </p>
-              <p class="mb-4">
+              <p class="mb-2">
                 <label>
                   Your Email:
                   <input
@@ -68,8 +69,8 @@
               <p class="text-right">
                 <button
                   type="submit"
-                  class="shadow bg-bborange hover:bg-bborange-darker focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded mt-4"
-                >Submit</button>
+                  class="shadow bg-bborange hover:bg-bborange-darker focus:shadow-outline focus:outline-none text-sm uppercase tracking-wide py-2 px-4 rounded mt-2"
+                >Send</button>
               </p>
             </form>
           </div>

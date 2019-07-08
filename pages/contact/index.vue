@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container mx-auto pt-56 relative z-20 mb-56">
+    <div class="container mx-auto pt-56 relative z-20 mb-56 xl:px-0">
       <div class="flex">
         <div class="flex-1">
           <picture-outlined

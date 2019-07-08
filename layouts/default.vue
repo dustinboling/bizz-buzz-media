@@ -3,7 +3,7 @@
     <header class="shadow-md border-t-2 border-black fixed top-0 left-0 right-0 z-50">
       <div class="top-nav bg-gray-500 text-white">
         <div
-          class="container mx-auto px-6 md:px-0 flex justify-between items-center py-3 text-sm font-light tracking-wide"
+          class="container mx-auto flex justify-between items-center py-3 text-sm font-light tracking-wide xl:px-0"
         >
           <span>Creating buzz for your bizzness™</span>
 
@@ -47,29 +47,31 @@
         </div>
       </div>
       <div class="branding bg-bborange">
-        <div class="container mx-auto flex justify-center md:justify-between items-center h-24">
-          <nav class="main-nav-left hidden md:block">
+        <div
+          class="container mx-auto flex justify-center sm:justify-between items-center h-24 xl:px-0"
+        >
+          <nav class="main-nav-left hidden text-center sm:block">
             <ul class="flex items-center uppercase text-lg tracking-wide">
-              <li class="mr-16">
+              <li class="mr-4 lg:mr-16">
                 <nuxt-link to="/membership">Membership Info</nuxt-link>
               </li>
-              <li>
+              <li class="mr-4 lg:mr-16">
                 <nuxt-link to="/apply">Join the Club</nuxt-link>
               </li>
             </ul>
           </nav>
-          <div class="logo -mt-5 lg:-mt-12 flex flex-col items-center text-center">
+          <div class="logo -mt-12 flex flex-col items-center text-center whitespace-no-wrap">
             <nuxt-link to="/">
               <img src="/bizzbuzz-bee.svg" class="h-20 md:h-24 mb-2" alt="Bizz-Buzz Media" />
             </nuxt-link>
             <span class="uppercase text-xs tracking-wide">Bizz-Buzz Media</span>
           </div>
-          <nav class="main-nav-right hidden md:block">
+          <nav class="main-nav-right hidden text-center sm:block">
             <ul class="flex items-center uppercase text-lg tracking-wide">
-              <li>
+              <li class="ml-4 lg:ml-16">
                 <nuxt-link to="/beehive">Around the Hive</nuxt-link>
               </li>
-              <li class="ml-16">
+              <li class="ml-4 lg:ml-16">
                 <nuxt-link to="/contact">Contact Us</nuxt-link>
               </li>
             </ul>
@@ -77,7 +79,31 @@
         </div>
       </div>
     </header>
+    <!-- MOBILE MENU -->
+    <nav
+      class="hidden mobile-menu fixed inset-0 bg-gray-600 text-white z-40 sm:hidden flex items-center justify-center text-center"
+    >
+      <ul
+        class="h-64 flex flex-col items-center justify-around uppercase text-lg tracking-widest font-medium"
+      >
+        <li>
+          <nuxt-link to="/membership">Membership Info</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/apply">Join the Club</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/beehive">Around the Hive</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="/contact">Contact Us</nuxt-link>
+        </li>
+      </ul>
+    </nav>
+    <!-- /MOBILE MENU -->
+    <!-- PAGE -->
     <nuxt />
+    <!-- /PAGE -->
     <footer class="py-10 bg-bborange">
       <p
         class="text-center uppercase text-xs tracking-wide font-light"
@@ -93,5 +119,8 @@ html {
 p,
 ul {
   @apply font-light;
+}
+.container {
+  @apply px-6;
 }
 </style>

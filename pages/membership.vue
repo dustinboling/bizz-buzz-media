@@ -1,8 +1,16 @@
 <template>
   <main>
-    <div class="container mx-auto py-56">
-      <div class="flex">
-        <div class="flex-1 pr-10">
+    <div class="container mx-auto py-48 lg:py-56 xl:px-0">
+      <div class="flex flex-col lg:flex-row">
+        <div class="flex-1 mb-8 lg:mb-0">
+          <picture-outlined
+            image="/img/730w/04-bizz-buzz.jpg"
+            imageAt2x="/img/730w/04-bizz-buzz@2x.jpg"
+            rotation="-1deg"
+            alt="The alt text"
+          />
+        </div>
+        <div class="flex-1 lg:pl-10">
           <h1 class="text-5xl tracking-wide leading-none mb-4">Membership Information</h1>
           <p
             class="mb-4 font-normal tracking-wide"
@@ -28,14 +36,6 @@
             class="text-xl font-semibold inline-block rounded-full bg-bborange border border-bborange-darker px-12 py-3 shadow-md mr-8 mb-3 md:mb-0"
             style="border-color: #FF8D00"
           >Apply Now!</nuxt-link>
-        </div>
-        <div class="flex-1 lg:pl-20">
-          <picture-outlined
-            image="/img/730w/04-bizz-buzz.jpg"
-            imageAt2x="/img/730w/04-bizz-buzz@2x.jpg"
-            rotation="1deg"
-            alt="The alt text"
-          />
         </div>
       </div>
     </div>
