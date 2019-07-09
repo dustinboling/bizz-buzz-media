@@ -3,7 +3,7 @@
     <!-- SECTION 1 -->
     <!-- style="background-image:url('/bizzbuzz-bee.svg');background-position:130% -60%;background-repeat:no-repeat;background-size:50% 80%;" -->
     <section class="relative pb-10 lg:pb-20">
-      <div class="container mx-auto relative z-20 flex overflow-hidden xl:px-0">
+      <div class="container mx-auto relative z-20 flex xl:px-0">
         <!-- Left -->
         <div
           class="relative z-10 max-w-3xl xl:max-w-2xl mx-auto xl:mx-0 w-full flex-shrink-0 pt-48 md:pt-56"

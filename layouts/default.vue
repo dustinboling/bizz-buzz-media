@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-hidden">
     <header class="shadow-md border-t-2 border-black fixed top-0 left-0 right-0 z-50">
       <div class="top-nav bg-gray-500 text-white">
         <div
