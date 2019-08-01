@@ -12,6 +12,15 @@
         </div>
         <div class="flex-1 pl-10">
           <h1 class="mb-4 text-3xl">Contact Us</h1>
+          <div class="mb-6">
+            <p class="mb-2 font-normal">(541) 214-2943</p>
+            <p>
+              335 Goodpasture Island Rd
+              <br />Eugene, Oregon 97401
+            </p>
+          </div>
+
+          <h3 class="text-xl mb-2">Send us a message</h3>
           <form
             name="contact"
             method="POST"
