@@ -15,8 +15,8 @@
           <div class="mb-6">
             <p class="mb-2 font-normal">(541) 214-2943</p>
             <p>
-              335 Goodpasture Island Rd
-              <br />Eugene, Oregon 97401
+              45 Division Ave, Suite G
+              <br />Eugene, Oregon 97404
             </p>
           </div>
 
