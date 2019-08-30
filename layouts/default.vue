@@ -129,8 +129,8 @@
         class="text-center uppercase text-xs tracking-wide font-light mb-4"
       >&copy;2019 Bizz-Buzz Media LLC. All Rights Reserved.</p>
       <p class="text-center text-xs tracking-wide font-light">
-        335 Goodpasture Island Road
-        <br />Eugene, Oregon 97401
+        45 Division Ave, Suite G
+        <br />Eugene, Oregon 97404
       </p>
     </footer>
   </div>
