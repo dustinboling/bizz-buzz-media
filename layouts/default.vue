@@ -8,7 +8,7 @@
           <span>Creating Buzz for Your Bizzness™</span>
 
           <div class="inline-flex">
-            <a class="hidden lg:inline lg:mr-3" href="tel:+15412142943">(541) 214-2943</a>
+            <a class="hidden lg:inline lg:mr-3" href="tel:+15417994228">(541) 799-4228</a>
 
             <a class="mr-3" href="https://www.facebook.com/bizzbuzznetwork" target="_blank">
               <svg
