@@ -127,10 +127,11 @@
     <footer class="py-10 bg-bborange">
       <p
         class="text-center uppercase text-xs tracking-wide font-light mb-4"
-      >&copy;2019 Bizz-Buzz Media LLC. All Rights Reserved.</p>
+      >&copy;2019-2020 Bizz-Buzz Media LLC. All Rights Reserved.</p>
       <p class="text-center text-xs tracking-wide font-light">
-        45 Division Ave, Suite G
+        440 Maxwell Road
         <br />Eugene, Oregon 97404
+        <br />+1 (541) 799-4228
       </p>
     </footer>
   </div>
